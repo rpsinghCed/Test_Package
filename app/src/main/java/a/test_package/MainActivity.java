@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
          t1=(TextView) findViewById(R.id.textView1);
 
        // rr.setRating((float) 2);
-        rr.setStepSize((float) 0.3);
+        //rr.setStepSize((float) 0.3);
 
         rr.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
 

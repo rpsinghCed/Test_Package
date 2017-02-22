@@ -3,6 +3,7 @@ package a.test_package;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 // TODO Auto-generated method stub
 
                 t1.setText(String.valueOf(rating));
+                Log.i("hello","test");
 
 
             }

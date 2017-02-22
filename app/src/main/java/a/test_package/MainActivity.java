@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onRatingChanged(RatingBar ratingBar, float rating,
                                         boolean fromUser) {
                 // TODO Auto-generated method stub
-
+                //Merge This file With Sud Hello I am Ghost 
                 t1.setText(String.valueOf(rating));
                 Log.i("hello","test");
 
